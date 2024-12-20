@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     ViewPager2 viewPager;
 
     private Runnable runnable;
-    private final Handler handler = new Handler(Looper.getMainLooper());
+    private Handler handler = new Handler(Looper.getMainLooper());
 
     private int currentPage = 0;
 
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        viewPager = findViewById(R.id.carousel);
+        viewPager = findViewById(R.id.vpcarousel);
 
         List<String> images = Arrays.asList(
                 "https://i.pinimg.com/736x/f6/b7/04/f6b704066c127e47d81e410d90e4fb48.jpg",

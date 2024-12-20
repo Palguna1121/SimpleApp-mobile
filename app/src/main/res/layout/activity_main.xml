@@ -13,7 +13,7 @@
         layout="@layout/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:laoyout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -29,7 +29,7 @@
 <!--    </androidx.core.widget.NestedScrollView>-->
 
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/carousel"
+        android:id="@+id/vpcarousel"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="16dp"

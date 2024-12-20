@@ -42,10 +42,10 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
 //    add dependencies
-    implementation("androidx.viewpager2:viewpager2:1.1.0")
-    implementation("com.github.bumptech.glide:glide:4.16.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.11.0")
-    implementation("com.github.bumptech.glide:glide:4.11.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.11.0")
-    implementation("androidx.cardview:cardview:1.0.0")
+    implementation(libs.viewpager2)
+    implementation(libs.glide.v4160)
+    annotationProcessor(libs.glide.compiler)
+    implementation(libs.github.glide)
+    annotationProcessor(libs.glide.compiler)
+    implementation(libs.cardview)
 }

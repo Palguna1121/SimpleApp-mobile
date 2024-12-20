@@ -42,7 +42,7 @@ public class ImageCarouselAdapter extends RecyclerView.Adapter<ImageCarouselAdap
         return 0;
     }
 
-    public static class ImageViewHolder extends RecyclerView.ViewHolder {
+    public class ImageViewHolder extends RecyclerView.ViewHolder {
         ImageView imageView;
         public ImageViewHolder(@NonNull View itemView) {
             super(itemView);
